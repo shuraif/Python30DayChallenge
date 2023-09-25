@@ -1,0 +1,13 @@
+The repository contains the following topics and folders:
+    Basics - Basic Python syntax, variables, data types, operators, control flow etc.
+    Strings - String manipulation and printing strings.
+    Lists - Using lists, arrays, looping through lists, list methods etc.
+    Dictionaries - Using dictionaries, accessing values, adding and removing items.
+    Functions - Writing and calling functions, arguments, return values.
+    Classes - Basic class definitions, constructors, methods, inheritance.
+    Modules - Importing modules and using module functions.
+    File Handling - Reading and writing files.
+
+1
+2
+3
