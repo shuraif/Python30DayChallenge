@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-from numpy import place
 
 #creating dataframe using list
 print("-----------------CREATING DATAFRAME FROM ARRAY------------------------")
@@ -30,6 +29,7 @@ print(empDf[['Name', 'Qualification']])
 print("-----------------CREATING DATAFRAME FROM CSV------------------------")
 csvDf = pd.read_csv("./resources/nba.csv", index_col="Name")
 rowData = csvDf.loc["Avery Bradley"]
+
 print(rowData)
 
 print("-----------------CREATING DATAFRAME FROM EXCEL-----------------------")
@@ -52,3 +52,5 @@ print(excelDf.describe())
 
 print("----info----")
 print(excelDf.info)
+
+
