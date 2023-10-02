@@ -34,12 +34,12 @@ print(rowData)
 
 print("-----------------CREATING DATAFRAME FROM EXCEL-----------------------")
 
-excelDf = pd.read_excel("./resources/nba_excel.xlsx", index_col="Name")
+excelDf = pd.read_excel("./resources/nba_excel.xlsx", index_col="EmpID")
 #print(excelDf)
 
 print(excelDf[0:3])
 
-player = excelDf.loc["John Holland"]
+player = excelDf.loc["U143442"]
 print(player)
 
 print("Length of dataframe: ",len(excelDf.index))
